@@ -1,0 +1,12 @@
+Source: ros-lyrical-pyhri
+Section: misc
+Priority: optional
+Maintainer: Luka Juricic <luka.juricic@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, python3-numpy, python3-numpy <!nocheck>, python3-opencv, python3-opencv <!nocheck>, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-pytest <!nocheck>, ros-lyrical-ament-cmake-python, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-builtin-interfaces, ros-lyrical-cv-bridge <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-geometry-msgs <!nocheck>, ros-lyrical-hri, ros-lyrical-hri-msgs <!nocheck>, ros-lyrical-pybind11-vendor, ros-lyrical-rclcpp, ros-lyrical-rclpy, ros-lyrical-sensor-msgs <!nocheck>, ros-lyrical-std-msgs <!nocheck>, ros-lyrical-tf2-ros-py <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://ros4hri.github.io/pyhri
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-pyhri
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, python3-numpy, python3-opencv, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-hri, ros-lyrical-rclcpp, ros-lyrical-rclpy, ros-lyrical-ros-workspace
+Description: A python wrapper around hri package
